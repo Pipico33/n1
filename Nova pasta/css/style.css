@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.masthead {
+    padding-top: 0rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../Meu\ projeto.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .cabecalho {
+    display: flex;
+    align-items: center;
+  }
+  .one {
+    flex-direction: row;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+  }
+  .two {    
+    flex-direction: row-reverse;
+    grid-gap: 8px;
+    margin: 8px;
+  }
+
+ .conteudo-principal-titulo {
+  margin: 8px;
+  color: black;
+  font-size: xx-large;
+ }
+
+ .conteudo-principal-subtitulo {
+  color: #fff;
+  font-size: 23px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+ }
